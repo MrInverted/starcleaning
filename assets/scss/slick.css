@@ -1,0 +1,199 @@
+@charset "UTF-8";
+.portfolio {
+  /* Активная точка */
+  /* Элемент точки */
+}
+.portfolio .slick-list {
+  overflow: hidden;
+  padding: 10px 0;
+}
+.portfolio .slick-track {
+  display: flex;
+}
+.portfolio .slick-arrow {
+  font-size: 0;
+  position: absolute;
+  margin-top: -20px;
+  z-index: 10;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgb(204, 204, 204);
+}
+.portfolio .slick-arrow.slick-prev {
+  background-image: url(../img/portfolioLeft.png);
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  top: 50%;
+  left: 0px;
+}
+.portfolio .slick-arrow.slick-next {
+  background-image: url(../img/portfolioRight.png);
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  top: 50%;
+  left: 675px;
+}
+.portfolio .slick-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.portfolio .slick-dots li {
+  margin: 0 10px;
+  width: 10px;
+  height: 10px;
+  border: 1px solid black;
+  background-color: rgb(201, 201, 201);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.portfolio .slick-dots li.slick-active {
+  background-color: grey;
+}
+.portfolio .slick-dots li button {
+  font-size: 0;
+}
+
+/*--------------------*/
+.responses {
+  /* Активная точка */
+  /* Элемент точки */
+}
+.responses .slick-list {
+  overflow: hidden;
+  padding: 10px 0;
+}
+.responses .slick-track {
+  display: flex;
+}
+.responses .slick-arrow {
+  font-size: 0;
+  position: absolute;
+  top: 50%;
+  margin-top: -20px;
+  z-index: 10;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgb(204, 204, 204);
+}
+.responses .slick-arrow.slick-prev {
+  background-image: url(../img/portfolioLeft.png);
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  left: 0px;
+}
+.responses .slick-arrow.slick-next {
+  background-image: url(../img/portfolioRight.png);
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  left: 675px;
+}
+.responses .slick-dots {
+  display: flex;
+  margin-top: 40px;
+  margin-left: 22%;
+}
+.responses .slick-dots li {
+  margin: 0 10px;
+  width: 30px;
+  height: 4px;
+  background-color: rgb(201, 201, 201);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.responses .slick-dots li.slick-active {
+  background-color: #0094FE;
+}
+.responses .slick-dots li button {
+  font-size: 0;
+}
+
+@media (max-width: 900px) {
+  .responses .slick-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin: 0;
+  }
+}
+/*--------------------*/
+.discounts {
+  /* Активная точка */
+  /* Элемент точки */
+}
+.discounts .slick-list {
+  overflow: hidden;
+  padding: 10px 0;
+}
+.discounts .slick-track {
+  display: flex;
+  gap: 20px;
+}
+.discounts .slick-arrow {
+  font-size: 0;
+  position: absolute;
+  top: 50%;
+  margin-top: -20px;
+  z-index: 10;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgb(204, 204, 204);
+}
+.discounts .slick-arrow.slick-prev {
+  background-image: url(../img/portfolioLeft.png);
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  left: 10px;
+}
+.discounts .slick-arrow.slick-next {
+  background-image: url(../img/portfolioRight.png);
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  left: 675px;
+}
+.discounts .slick-dots {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -20px;
+  margin-right: 20%;
+}
+.discounts .slick-dots li {
+  margin: 0 10px;
+  width: 30px;
+  height: 4px;
+  background-color: rgb(201, 201, 201);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.discounts .slick-dots li.slick-active {
+  background-color: #0094FE;
+}
+.discounts .slick-dots li button {
+  font-size: 0;
+}
+
+@media (max-width: 1200px) {
+  .discounts .slick-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-right: 0;
+  }
+}
+@media (max-width: 900px) {
+  .discounts .slick-arrow.slick-prev {
+    left: -20px;
+  }
+}
